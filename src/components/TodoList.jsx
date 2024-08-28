@@ -1,5 +1,5 @@
 import React from "react";
-import Todocard from "./Todocard";
+import Todocard from "./TodoCard";
 
 export default function Todolist(props) {
   const { todos, handleDeleteTodos } = props;
