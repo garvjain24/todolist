@@ -1,10 +1,5 @@
 import { useEffect, useState } from "react";
-import Todolist from "./components/Todolist.jsx";[build]
-  command = "npm run build"
-  publish = "dist"
-
-[context.production.environment]
-  NODE_VERSION = "18.20.4"
+import Todolist from "./components/Todolist";
 import TodoInput from "./components/TodoInput";
 
 function App() {
